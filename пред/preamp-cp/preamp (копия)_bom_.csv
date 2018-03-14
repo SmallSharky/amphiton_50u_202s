@@ -1,0 +1,48 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,b'Unpolarized capacitor',b'C',b'C3',b'0.015u',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'1',b''
+2,b'Unpolarized capacitor',b'C',b'C10',b'0.01u',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'1',b''
+3,b'Unpolarized capacitor',b'C',b'C6',b'0.047u',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'1',b''
+4,b'Unpolarized capacitor',b'C',b'C1 C4',b'0.15u',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'2',b''
+5,b'Unpolarized capacitor',b'C',b'C2 C5',b'0.1u',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'2',b''
+6,b'Unpolarized capacitor',b'C',b'C7',b'3300p',b'C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2',b'1',b''
+7,b'Unpolarized capacitor',b'C',b'C8 C9',b'5u',b'CP_Radial_D8.0mm_P3.50mm',b'2',b''
+8,"b'Generic connector, single row, 01x02'",b'Conn_01x02',b'P1 P5 P6',b'CONN_01X02',b'Pin_Header_Straight_1x02_Pitch2.54mm',b'3',b''
+9,"b'Generic connector, single row, 01x03'",b'Conn_01x03',b'P2 P7',b'CONN_01X03',b'Pin_Header_Straight_1x03_Pitch2.54mm',b'2',b''
+10,"b'45V Vce, 0.8A Ic, NPN, SOT-23'",b'BC850',b'Q5',b'BC850',b'SOT-23',b'1',b'http://www.fairchildsemi.com/ds/BC/BC817.pdf'
+11,"b'45V Vce, 0.8A Ic, PNP, SOT-23'",b'BC857',b'Q3 Q4 Q6',b'BC857',b'SOT-23',b'3',b'http://www.fairchildsemi.com/ds/BC/BC807.pdf'
+12,"b'50V Vds, 0.22 A Id, N-channel MOSFET, SOT-23'",b'BSS138',b'Q1 Q2',b'BSS138',b'SOT-23',b'2',b'https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf'
+13,"b'Generic connector, single row, 01x03'",b'Conn_01x03',b'R25 R26',b'100k',b'Pin_Header_Straight_1x03_Pitch2.54mm',b'2',b''
+14,b'Resistor',b'R',b'R2 R6',b'12k',b'R_1206',b'2',b''
+15,b'Resistor',b'R',b'R15',b'180R',b'R_1206',b'1',b''
+16,b'Resistor',b'R',b'R10 R16',b'18k',b'R_1206',b'2',b''
+17,b'Resistor',b'R',b'R4',b'1k',b'R_1206',b'1',b''
+18,b'Resistor',b'R',b'R23 R24',b'1k2',b'R_1206',b'2',b''
+19,b'Resistor',b'R',b'R9 R22',b'2.2M',b'R_1206',b'2',b''
+20,b'Resistor',b'R',b'R7',b'22.1k',b'R_1206',b'1',b''
+21,b'Resistor',b'R',b'R5',b'22k',b'R_1206',b'1',b''
+22,b'Resistor',b'R',b'R21',b'2k',b'R_1206',b'1',b''
+23,b'Resistor',b'R',b'R14',b'2k1',b'R_1206',b'1',b''
+24,b'Resistor',b'R',b'R12',b'2k2',b'R_1206',b'1',b''
+25,b'Resistor',b'R',b'R18 R19',b'33R',b'R_1206',b'2',b''
+26,b'Resistor',b'R',b'R1',b'4.7M',b'R_1206',b'1',b''
+27,b'Resistor',b'R',b'R11 R17',b'470R',b'R_1206',b'2',b''
+28,b'Resistor',b'R',b'R8',b'68.1k',b'R_1206',b'1',b''
+29,b'Resistor',b'R',b'R13',b'680R',b'R_1206',b'1',b''
+30,b'Resistor',b'R',b'R3',b'8.48k',b'R_1206',b'1',b''
+31,b'Resistor',b'R',b'R20',b'8k2',b'R_1206',b'1',b''
+32,b'Potentiometer',b'POT',b'RV1',b'2k2',b'Potentiometer_Trimmer_Bourns_3296W',b'1',b''
+
+
+
+
+
+Component Groups:,32
+Component Count:,48
+Fitted Components:,48
+Number of PCBs:,1
+Total components:,48
+Schematic Version:,
+Schematic Date:,
+BoM Date:,b' 11  2018 03:27:35'
+Schematic Source:,b'/backup/git/amphiton_50u_202s//preamp ().sch'
+KiCad Version:,b'Eeschema 4.0.7'
