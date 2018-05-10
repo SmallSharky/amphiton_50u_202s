@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /backup/git/amphiton_50u_202s/стабилизатор/Стабилизатор.sch)
-    (date "Вт 08 май 2018 19:37:02")
+    (source /home/gui-user/Документы/e-nix/amphiton_50u_202s/стабилизатор/Стабилизатор.sch)
+    (date "Чт 10 мая 2018 15:02:13")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -29,13 +29,13 @@
       (tstamp 5AF1AE06))
     (comp (ref Q4)
       (value 2N3905)
-      (footprint TO_SOT_Packages_THT:TO-92_Molded_Narrow)
+      (footprint TO_SOT_Packages_THT:TO-92_Molded_Wide)
       (libsource (lib transistors) (part 2N3905))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AF1AEB0))
     (comp (ref Q3)
       (value 2N3904)
-      (footprint TO_SOT_Packages_THT:TO-92_Molded_Narrow)
+      (footprint TO_SOT_Packages_THT:TO-92_Molded_Wide)
       (libsource (lib transistors) (part 2N3904))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AF1AF0B))
@@ -372,12 +372,12 @@
       (pins
         (pin (num 1) (name 1) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical transistors)
       (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(R12-Pad2)")
       (node (ref R12) (pin 2))
