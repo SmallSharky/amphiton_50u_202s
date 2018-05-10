@@ -39,12 +39,12 @@ encoding utf-8
 Sheet 1 1
 Title "Стабилизатор предусилителя"
 Date "2018-05-08"
-Rev "0"
+Rev "1.0.0"
 Comp ""
-Comment1 "1"
-Comment2 "SmallSharky"
-Comment3 "SmallSharky"
-Comment4 "SmallSharky"
+Comment1 ""
+Comment2 "dev: SmallSharky"
+Comment3 ""
+Comment4 ""
 $EndDescr
 $Comp
 L BD140 Q1
