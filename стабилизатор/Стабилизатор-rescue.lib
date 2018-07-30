@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Стабилизатор-rescue:2N3904
+# 2N3904
 #
-DEF Стабилизатор-rescue:2N3904 Q 0 0 Y N 1 F N
+DEF 2N3904 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Стабилизатор-rescue:2N3904" 200 0 50 H V L CNN
+F1 "2N3904" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -23,11 +23,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:2N3905
+# 2N3905
 #
-DEF Стабилизатор-rescue:2N3905 Q 0 0 Y N 1 F N
+DEF 2N3905 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Стабилизатор-rescue:2N3905" 200 0 50 H V L CNN
+F1 "2N3905" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -45,11 +45,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:BD139
+# BD139
 #
-DEF Стабилизатор-rescue:BD139 Q 0 0 Y N 1 F N
+DEF BD139 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Стабилизатор-rescue:BD139" 200 0 50 H V L CNN
+F1 "BD139" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-126_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -68,11 +68,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:BD140
+# BD140
 #
-DEF Стабилизатор-rescue:BD140 Q 0 0 Y N 1 F N
+DEF BD140 Q 0 0 Y N 1 F N
 F0 "Q" 200 75 50 H V L CNN
-F1 "Стабилизатор-rescue:BD140" 200 0 50 H V L CNN
+F1 "BD140" 200 0 50 H V L CNN
 F2 "TO_SOT_Packages_THT:TO-126_Vertical" 200 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -91,11 +91,11 @@ X B 3 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:C
+# C
 #
-DEF Стабилизатор-rescue:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Стабилизатор-rescue:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:CP
+# CP
 #
-DEF Стабилизатор-rescue:CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Стабилизатор-rescue:CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -132,11 +132,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:Conn_01x03_Female
+# Conn_01x03_Female
 #
-DEF Стабилизатор-rescue:Conn_01x03_Female J 0 40 Y N 1 F N
+DEF Conn_01x03_Female J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Стабилизатор-rescue:Conn_01x03_Female" 0 -200 50 H V C CNN
+F1 "Conn_01x03_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -158,11 +158,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:D_Zener
+# D_Zener
 #
-DEF Стабилизатор-rescue:D_Zener D 0 40 N N 1 F N
+DEF D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Стабилизатор-rescue:D_Zener" 0 -100 50 H V C CNN
+F1 "D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:POT
+# POT
 #
-DEF Стабилизатор-rescue:POT RV 0 40 N N 1 F N
+DEF POT RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Стабилизатор-rescue:POT" -100 0 50 V V C CNN
+F1 "POT" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -201,11 +201,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:R
+# R
 #
-DEF Стабилизатор-rescue:R R 0 0 N Y 1 F N
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Стабилизатор-rescue:R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -219,11 +219,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Стабилизатор-rescue:TEST_1P
+# TEST_1P
 #
-DEF Стабилизатор-rescue:TEST_1P J 0 30 N N 1 F N
+DEF TEST_1P J 0 30 N N 1 F N
 F0 "J" 0 270 50 H V C CNN
-F1 "Стабилизатор-rescue:TEST_1P" 0 200 50 H V C CNN
+F1 "TEST_1P" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
