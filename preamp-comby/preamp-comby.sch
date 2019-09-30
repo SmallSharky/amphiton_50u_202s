@@ -1,0 +1,283 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BD140 Q?
+U 1 1 5D921983
+P 5150 3000
+F 0 "Q?" H 5342 3046 50  0000 L CNN
+F 1 "BD140" H 5342 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5350 2925 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5150 3000 50  0001 L CNN
+	1    5150 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3905 Q?
+U 1 1 5D92267A
+P 2250 4050
+F 0 "Q?" H 2440 4096 50  0000 L CNN
+F 1 "2N3905" H 2440 4005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2450 3975 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf" H 2250 4050 50  0001 L CNN
+	1    2250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 5D922F0B
+P 3750 3600
+F 0 "Q?" H 3940 3646 50  0000 L CNN
+F 1 "2N3904" H 3940 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3950 3525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 3750 3600 50  0001 L CNN
+	1    3750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BD139 Q?
+U 1 1 5D923112
+P 5000 3500
+F 0 "Q?" H 5192 3546 50  0000 L CNN
+F 1 "BD139" H 5192 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-126-3_Vertical" H 5200 3425 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf" H 5000 3500 50  0001 L CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZT52Bxx D?
+U 1 1 5D92407D
+P 3550 2500
+F 0 "D?" H 3550 2716 50  0000 C CNN
+F 1 "MMSZ5246B" H 3550 2625 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3550 2325 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 3550 2500 50  0001 C CNN
+	1    3550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZT52Bxx D?
+U 1 1 5D924372
+P 3250 3250
+F 0 "D?" H 3250 3466 50  0000 C CNN
+F 1 "MMSZ5246B" H 3250 3375 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3250 3075 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf" H 3250 3250 50  0001 C CNN
+	1    3250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D9250F5
+P 1150 3300
+F 0 "R?" H 1220 3346 50  0000 L CNN
+F 1 "R" H 1220 3255 50  0000 L CNN
+F 2 "" V 1080 3300 50  0001 C CNN
+F 3 "~" H 1150 3300 50  0001 C CNN
+	1    1150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5D92537A
+P 2500 2950
+F 0 "C?" H 2615 2996 50  0000 L CNN
+F 1 "C" H 2615 2905 50  0000 L CNN
+F 2 "" H 2538 2800 50  0001 C CNN
+F 3 "~" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D925731
+P 2700 950
+F 0 "C?" H 2818 996 50  0000 L CNN
+F 1 "CP" H 2818 905 50  0000 L CNN
+F 2 "" H 2738 800 50  0001 C CNN
+F 3 "~" H 2700 950 50  0001 C CNN
+	1    2700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D926593
+P 3950 750
+F 0 "RV?" H 3881 796 50  0000 R CNN
+F 1 "R_POT" H 3881 705 50  0000 R CNN
+F 2 "" H 3950 750 50  0001 C CNN
+F 3 "~" H 3950 750 50  0001 C CNN
+	1    3950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 5D926B8B
+P 3950 1500
+F 0 "RV?" H 3881 1546 50  0000 R CNN
+F 1 "R_POT" H 3881 1455 50  0000 R CNN
+F 2 "" H 3950 1500 50  0001 C CNN
+F 3 "~" H 3950 1500 50  0001 C CNN
+	1    3950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5D929A0F
+P 900 1650
+F 0 "J?" H 818 1875 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 818 1876 50  0001 C CNN
+F 2 "" H 900 1650 50  0001 C CNN
+F 3 "~" H 900 1650 50  0001 C CNN
+	1    900  1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D92AFB7
+P 1450 1900
+F 0 "C?" H 1568 1946 50  0000 L CNN
+F 1 "CP" H 1568 1855 50  0000 L CNN
+F 2 "" H 1488 1750 50  0001 C CNN
+F 3 "~" H 1450 1900 50  0001 C CNN
+	1    1450 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D92B8AF
+P 1450 2300
+F 0 "R?" H 1520 2346 50  0000 L CNN
+F 1 "R" H 1520 2255 50  0000 L CNN
+F 2 "" V 1380 2300 50  0001 C CNN
+F 3 "~" H 1450 2300 50  0001 C CNN
+	1    1450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D92BBBF
+P 1450 1000
+F 0 "R?" H 1520 1046 50  0000 L CNN
+F 1 "R" H 1520 955 50  0000 L CNN
+F 2 "" V 1380 1000 50  0001 C CNN
+F 3 "~" H 1450 1000 50  0001 C CNN
+	1    1450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5D92BF6E
+P 1450 1400
+F 0 "C?" H 1568 1446 50  0000 L CNN
+F 1 "CP" H 1568 1355 50  0000 L CNN
+F 2 "" H 1488 1250 50  0001 C CNN
+F 3 "~" H 1450 1400 50  0001 C CNN
+	1    1450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D935FB9
+P 1700 1200
+F 0 "R?" V 1493 1200 50  0000 C CNN
+F 1 "R" V 1584 1200 50  0000 C CNN
+F 2 "" V 1630 1200 50  0001 C CNN
+F 3 "~" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D937516
+P 1700 2100
+F 0 "R?" V 1493 2100 50  0000 C CNN
+F 1 "R" V 1584 2100 50  0000 C CNN
+F 2 "" V 1630 2100 50  0001 C CNN
+F 3 "~" H 1700 2100 50  0001 C CNN
+	1    1700 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D937C91
+P 1700 750
+F 0 "TP?" H 1758 868 50  0000 L CNN
+F 1 "+43V" H 1758 777 50  0000 L CNN
+F 2 "" H 1900 750 50  0001 C CNN
+F 3 "~" H 1900 750 50  0001 C CNN
+	1    1700 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D93AF3E
+P 1700 2550
+F 0 "TP?" H 1642 2576 50  0000 R CNN
+F 1 "-43V" H 1642 2667 50  0000 R CNN
+F 2 "" H 1900 2550 50  0001 C CNN
+F 3 "~" H 1900 2550 50  0001 C CNN
+	1    1700 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 1650 1450 1650
+Wire Wire Line
+	1450 1650 1450 1550
+Wire Wire Line
+	1450 1650 1450 1750
+Connection ~ 1450 1650
+Wire Wire Line
+	1100 1550 1250 1550
+Wire Wire Line
+	1250 1550 1250 800 
+Wire Wire Line
+	1250 800  1450 800 
+Wire Wire Line
+	1700 800  1700 750 
+Wire Wire Line
+	1450 850  1450 800 
+Connection ~ 1450 800 
+Wire Wire Line
+	1450 800  1700 800 
+Wire Wire Line
+	1450 1150 1450 1200
+Wire Wire Line
+	1550 1200 1450 1200
+Connection ~ 1450 1200
+Wire Wire Line
+	1450 1200 1450 1250
+Wire Wire Line
+	1450 2050 1450 2100
+Wire Wire Line
+	1550 2100 1450 2100
+Connection ~ 1450 2100
+Wire Wire Line
+	1450 2100 1450 2150
+Wire Wire Line
+	1100 1750 1250 1750
+Wire Wire Line
+	1250 1750 1250 2500
+Wire Wire Line
+	1250 2500 1450 2500
+Wire Wire Line
+	1450 2500 1450 2450
+Wire Wire Line
+	1700 2550 1700 2500
+Wire Wire Line
+	1700 2500 1450 2500
+Connection ~ 1450 2500
+$EndSCHEMATC
