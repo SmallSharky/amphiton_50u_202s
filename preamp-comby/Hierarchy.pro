@@ -1,6 +1,6 @@
-update=Вт 01 окт 2019 15:50:47
+update=Вт 01 окт 2019 19:21:33
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -39,6 +39,17 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.2
+TrackWidth3=0.4
+TrackWidth4=0.5
+TrackWidth5=0.6
+TrackWidth6=0.7
+TrackWidth7=0.8
+TrackWidth8=1
+TrackWidth9=1.2
+TrackWidth10=1.5
+TrackWidth11=2
+TrackWidth12=3
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -57,7 +68,7 @@ CopperTextThickness=0.3
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=0.09999999999999999
-CourtyardLineWidth=0.12
+CourtyardLineWidth=0.05
 OthersLineWidth=0.15
 OthersTextSizeV=1
 OthersTextSizeH=1
@@ -67,7 +78,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -233,7 +244,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
